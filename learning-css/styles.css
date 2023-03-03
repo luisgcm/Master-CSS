@@ -8,7 +8,19 @@
 }
 
 /*Selector de etiqueta*/
+h1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
 
+a{
+    color: green;
+}
+
+footer a{
+    color: red;
+}
 /*Selector de id*/
 
 /*Selector de clase*/
