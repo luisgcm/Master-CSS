@@ -36,5 +36,21 @@ footer a{
     text-transform: uppercase;
 }
 /*Selector de clase*/
+.parrafo{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding: 15px;
+}
+
+.parrafo1{
+    background-color: green;
+    color: white;
+}
+
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
 
 /*Selector de atributo*/
