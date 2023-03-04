@@ -54,3 +54,33 @@ footer a{
 }
 
 /*Selector de atributo*/
+#usuario form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 5px solid blue;
+    padding: 15px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+
+
+
