@@ -83,6 +83,7 @@ header{
     height: 1350px;
     line-height: 1350px;
     text-align: center;
+    /*overflow: hidden;*/
 }
 
 #contenido > h1 {
@@ -115,4 +116,39 @@ header{
     text-align: center;
     background-color: #ccc;
     border-top: #444;
+}
+
+.libre1{
+    background-color: red;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 300px;
+    right: 61.32%;
+    z-index: 2;
+}
+
+.libre2{
+    background-color: aqua;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 360px;
+    right: 61.32%;
+    z-index: 1;
+}
+
+.fija{
+    background-color: crimson;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    top: 50%;
+    right: 0px;
 }
