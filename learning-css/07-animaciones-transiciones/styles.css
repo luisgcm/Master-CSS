@@ -17,3 +17,50 @@
     border-radius: 15px;
     border: 5px solid greenyellow;
 }
+
+#caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 250px;
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: lightseagreen;
+    color: #fff;
+    border: 5px solid black;
+    /*Animation*/
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento{
+    /*from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1200px;
+    }*/
+
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 1080px;
+        transform: rotate(360deg);
+        border-radius: 999px;
+    }
+    75%{
+        background-color: red;
+    }
+    77%{
+        border: 5px dashed blue;
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}
