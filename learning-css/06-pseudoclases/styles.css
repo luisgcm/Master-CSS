@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#menu li:first-child{
+    color: blueviolet;
+}
+
+#menu li:nth-child(2){
+    color: darkorange;
+}
+
+#menu li:last-child{
+    color: #ccc;
+}
+
+.mi-enlace:visited{
+    color: chartreuse;
+}
+
+.mi-enlace:hover{
+    color: crimson;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 5px dashed red;
+}
